@@ -55,6 +55,7 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
   gem "rubocop-erb", require: false
+  gem "simplecov", require: false
 end
 
 group :development do
