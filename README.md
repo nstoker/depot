@@ -14,4 +14,4 @@ Iteration C5: Caching of partial results
 
 Task D: Cart creation
 Iteration D1: Finding a cart
-
+Iteration D2: Connecting products to carts

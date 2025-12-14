@@ -1,4 +1,8 @@
 class Product < ApplicationRecord
+  has_many :line_items
+
+  before_destroy :ensure_not_referenced_by_any_line_item
+
   has_one_attached :image
   validates :title, uniqueness: true, presence: true
   validates :description, :image, presence: true
@@ -15,4 +19,13 @@ class Product < ApplicationRecord
       errors.add(:image, "mush be a GIF, JPG, or PNG type")
     end
   end
+
+  private
+    # Ensure that there are no line items referencing this product
+    def ensure_not_referenced_by_any_line_item
+      unless line_items.empty?
+        errors.add(:base, "Line Items present")
+        throw :abort
+      end
+    end
 end
