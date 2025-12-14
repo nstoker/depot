@@ -13,12 +13,12 @@
 
   <div class="my-5">
     <%= form.label :product_id %>
-    <%= form.text_field :product_id, class: ["block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", {"border-gray-400 focus:outline-blue-600": line_item.errors[:product_id].none?, "border-red-400 focus:outline-red-600": line_item.errors[:product_id].any?}] %>
+    <%= form.text_field :product_id, class: [ "block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", { "border-gray-400 focus:outline-blue-600": line_item.errors[:product_id].none?, "border-red-400 focus:outline-red-600": line_item.errors[:product_id].any? } ] %>
   </div>
 
   <div class="my-5">
     <%= form.label :cart_id %>
-    <%= form.text_field :cart_id, class: ["block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", {"border-gray-400 focus:outline-blue-600": line_item.errors[:cart_id].none?, "border-red-400 focus:outline-red-600": line_item.errors[:cart_id].any?}] %>
+    <%= form.text_field :cart_id, class: [ "block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", { "border-gray-400 focus:outline-blue-600": line_item.errors[:cart_id].none?, "border-red-400 focus:outline-red-600": line_item.errors[:cart_id].any? } ] %>
   </div>
 
   <div class="inline">
