@@ -8,3 +8,5 @@ Working through Task B: Validation and Unit Testing
 B2 Unit testing of model
 Started Task C: Catalog C Display
 Iteration C2: Page Layout
+Iteration C3: Using a helper to Format price
+
