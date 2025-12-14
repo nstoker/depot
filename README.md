@@ -12,3 +12,6 @@ Iteration C3: Using a helper to Format price
 Iteration C4: Functional Testing of Controllers
 Iteration C5: Caching of partial results
 
+Task D: Cart creation
+Iteration D1: Finding a cart
+
