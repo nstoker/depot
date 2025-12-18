@@ -4,6 +4,8 @@ Following the Agile Web Development With Rails 8 book
 
 Working through Task A: Creating the Application.
 
+Stopping at end of Task D, with one bug unable to locate. Pushing as release 0.1
+
 Working through Task B: Validation and Unit Testing
 B2 Unit testing of model
 Started Task C: Catalog C Display
@@ -16,6 +18,12 @@ Task D: Cart creation
 Iteration D1: Finding a cart
 Iteration D2: Connecting products to carts
 Iteration D3: Adding a Button
+
+## Releases
+
+### v0.1
+
+Has error in github actions and a known failing test
 
 ## Notes
 `bin/rails test test/controllers/line_items_controller_test.rb:18`
