@@ -23,7 +23,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     # assert_redirected_to line_item_url(LineItem.last)
     follow_redirect!
     assert_select "h2", "Your Cart"
-    assert_select "ul", "1 \u00D7 The Pragmatic Programmer"
+    assert_select "td", "The Pragmatic Programmer"
   end
 
   test "should show line_item" do

@@ -1,5 +1,9 @@
 # README
 
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
+
 Following the Agile Web Development With Rails 8 book
 
 Working through Task A: Creating the Application.
@@ -23,6 +27,7 @@ Task E: A Smarter Cart
 Iteration E1:reating a smarter cart
 Found issue with the failing test, now fixed.
 Iteration E2: Handling Errors
+Iteration E3: Finishing the cart
 
 ## Releases
 
