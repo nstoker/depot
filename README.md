@@ -16,3 +16,18 @@ Task D: Cart creation
 Iteration D1: Finding a cart
 Iteration D2: Connecting products to carts
 Iteration D3: Adding a Button
+
+## Notes
+`bin/rails test test/controllers/line_items_controller_test.rb:18`
+
+## Bugs
+```
+
+### Failing test
+```bin/rails​​ ​​test​​ ​​test/controllers/line_items_controller_test.rb​```
+
+LineItemsControllerTest#test_should_create_line_item [test/controllers/line_items_controller_test.rb:19]:
+`LineItem.count` didn't change by 1, but by 0.
+Expected: 3
+  Actual: 2
+  ```
