@@ -53,6 +53,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
       delete product_url(@product)
     end
 
-    assert_redirected_to products_url
+    assert_raises ActiveRecord::RecordNotDestroyed do
+      delete product_url(products(:two))
+    end
   end
 end
