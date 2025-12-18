@@ -22,6 +22,7 @@ Iteration D3: Adding a Button
 Task E: A Smarter Cart
 Iteration E1:reating a smarter cart
 Found issue with the failing test, now fixed.
+Iteration E2: Handling Errors
 
 ## Releases
 
