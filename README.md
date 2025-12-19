@@ -29,6 +29,8 @@ Found issue with the failing test, now fixed.
 Iteration E2: Handling Errors
 Iteration E3: Finishing the cart
 
+Task F: Hotwiring the Storefront
+
 ## Releases
 
 ### v0.1 Task E
