@@ -31,7 +31,8 @@ Iteration E3: Finishing the cart
 
 ## Releases
 
-### v0.1
+### v0.1 Task E
+### v0.2 2025/12/19 Task E3
 
 Has error in github actions and a known failing test
 
