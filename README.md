@@ -31,6 +31,7 @@ Iteration E3: Finishing the cart
 
 Task F: Hotwiring the Storefront
 Iteration F1: Moving the Cart
+Iteration F2: Creating a Hotwired Cart
 
 ## Releases
 
