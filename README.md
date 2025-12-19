@@ -1,5 +1,9 @@
 # README
 
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
+
 Following the Agile Web Development With Rails 8 book
 
 Working through Task A: Creating the Application.
@@ -19,23 +23,19 @@ Iteration D1: Finding a cart
 Iteration D2: Connecting products to carts
 Iteration D3: Adding a Button
 
+Task E: A Smarter Cart
+Iteration E1:reating a smarter cart
+Found issue with the failing test, now fixed.
+Iteration E2: Handling Errors
+Iteration E3: Finishing the cart
+
 ## Releases
 
-### v0.1
+### v0.1 Task E
+### v0.2 2025/12/19 Task E3
 
 Has error in github actions and a known failing test
 
 ## Notes
-`bin/rails test test/controllers/line_items_controller_test.rb:18`
 
-## Bugs
-```
-
-### Failing test
-```bin/rails​​ ​​test​​ ​​test/controllers/line_items_controller_test.rb​```
-
-LineItemsControllerTest#test_should_create_line_item [test/controllers/line_items_controller_test.rb:19]:
-`LineItem.count` didn't change by 1, but by 0.
-Expected: 3
-  Actual: 2
   ```
