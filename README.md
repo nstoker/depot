@@ -30,6 +30,7 @@ Iteration E2: Handling Errors
 Iteration E3: Finishing the cart
 
 Task F: Hotwiring the Storefront
+Iteration F1: Moving the Cart
 
 ## Releases
 
