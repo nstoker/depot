@@ -40,6 +40,7 @@ Iteration F4: Broadcasting Updates with Action Cable
 
 ### v0.1 Task E
 ### v0.2 2025/12/19 Task E3
+### v0.3 2025/12/20 Task F
 
 
 ## Notes
