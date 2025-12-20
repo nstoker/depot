@@ -54,13 +54,13 @@ rescue_from ActiveRecord::RecordNotFound, with: :invalid_cart
     session[:cart_id] = nil
 
     respond_to do |format|
-      format.html { redirect_to store_index_path, status: :see_other, notice: "Your cart is currently empty", status: :see_other }
+      format.html { redirect_to store_index_path, status: :see_other, notice: "Your cart is currently empty" }
       format.json { head :no_content }
     end
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Use callbacks to share common setu or constraints between actions.
     def set_cart
       @cart = Cart.find(params.expect(:id))
     end
