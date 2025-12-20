@@ -29,13 +29,17 @@ Found issue with the failing test, now fixed.
 Iteration E2: Handling Errors
 Iteration E3: Finishing the cart
 
+Task F: Hotwiring the Storefront
+Iteration F1: Moving the Cart
+Iteration F2: Creating a Hotwired Cart
+Iteration F3: Highlighting Changes
+Current issue: not showing the expected highlight
+Iteration F4: Broadcasting Updates with Action Cable
+
 ## Releases
 
 ### v0.1 Task E
 ### v0.2 2025/12/19 Task E3
 
-Has error in github actions and a known failing test
 
 ## Notes
-
-  ```
