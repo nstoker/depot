@@ -36,6 +36,8 @@ Iteration F3: Highlighting Changes
 Current issue: not showing the expected highlight
 Iteration F4: Broadcasting Updates with Action Cable
 
+Task Extra Database
+
 ## Releases
 
 ### v0.1 Task E
