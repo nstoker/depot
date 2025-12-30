@@ -37,6 +37,7 @@ Current issue: not showing the expected highlight
 Iteration F4: Broadcasting Updates with Action Cable
 
 Task Extra Database
+* added the rails erd config
 
 ## Releases
 
