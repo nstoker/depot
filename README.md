@@ -36,6 +36,14 @@ Iteration F3: Highlighting Changes
 Current issue: not showing the expected highlight
 Iteration F4: Broadcasting Updates with Action Cable
 
+Task Extra Database
+* added the rails erd config
+* added a link to get to products
+* added db/seed_files to aid the generation of default data
+Set up a method of adding seed data to the database, I just need to scale it to all the tables currently in use.
+
+Next task to complete the playtime from the end of task E at p140.
+
 ## Releases
 
 ### v0.1 Task E
