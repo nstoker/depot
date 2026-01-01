@@ -42,8 +42,13 @@ Task Extra Database
 * added db/seed_files to aid the generation of default data
 Set up a method of adding seed data to the database, I just need to scale it to all the tables currently in use.
 
-Task Play Time p140
+Task Play Time 10 p140
 Next task to complete the playtime from the end of task E at p140.
+
+Task 1
+  a/ Create a migration that copies the product price into the line item,
+  b/ change the `add_product()` method in the Cart model to capture the price whenever a new line item is created.
+  c/ Add prices to the `line_items.yml` fixture.
 
 ## Releases
 
