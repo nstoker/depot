@@ -46,9 +46,13 @@ Task Play Time 10 p140
 Next task to complete the playtime from the end of task E at p140.
 
 Task 1
-  a/ Create a migration that copies the product price into the line item,
-  b/ change the `add_product()` method in the Cart model to capture the price whenever a new line item is created.
-  c/ Add prices to the `line_items.yml` fixture.
+  a/ Create a migration that copies the product price into the line item Done
+  b/ change the `add_product()` method in the Cart model to capture the price whenever a new line item is created. In progress - don't fully understand the issue
+  c/ Add prices to the `line_items.yml` fixture. Done
+Task 2
+ Write unit tests that add both unique products and duplicate products to a cart. Assert how many products should be in the cart in each instance. Note that you'll need to modify the fixture to refer to products and carts by name -- for example, `product: pragprog`.
+Task 3
+  Check products and line items for other places where a user friendly error message would be in order.
 
 ## Releases
 
