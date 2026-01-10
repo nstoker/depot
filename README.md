@@ -53,6 +53,8 @@ Task 2
  Write unit tests that add both unique products and duplicate products to a cart. Assert how many products should be in the cart in each instance. Note that you'll need to modify the fixture to refer to products and carts by name -- for example, `product: pragprog`.
 Task 3
   Check products and line items for other places where a user friendly error message would be in order.
+Task 4
+  Add the ability to delete individual line items from the cart.
 
 ## Releases
 
