@@ -11,4 +11,5 @@
   <td class="text-right font-bold">
     <%= number_to_currency(line_item.total_price) %>
   </td>
+  <td><%= link_to "-", remove_item_line_item_url(line_item.id), class: "ml-2 rounded-lg py-1 px-2 text-white bg-gray-400" if line_item.quantity > 1 %></td>
 </tr>

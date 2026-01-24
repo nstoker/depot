@@ -36,11 +36,31 @@ Iteration F3: Highlighting Changes
 Current issue: not showing the expected highlight
 Iteration F4: Broadcasting Updates with Action Cable
 
+Task Extra Database
+* added the rails erd config
+* added a link to get to products
+* added db/seed_files to aid the generation of default data
+Set up a method of adding seed data to the database, I just need to scale it to all the tables currently in use.
+
+Task Play Time 10 p140
+Next task to complete the playtime from the end of task E at p140.
+
+Task 1
+  a/ Create a migration that copies the product price into the line item Done
+  b/ change the `add_product()` method in the Cart model to capture the price whenever a new line item is created. In progress - don't fully understand the issue
+  c/ Add prices to the `line_ems.yml` fixture. Done
+Task 2
+ Write unit tests that add both unique products and duplicate products to a cart. Assert how many products should be in the cart in each instance. Note that you'll need to modify the fixture to refer to products and carts by name -- for example, `product: pragprog`.
+Task 3
+  Check products and line items for other places where a user friendly error message would be in order.
+Task 4
+  Add the ability to delete individual line items from the cart. Code added, but tests needed (given up for now).
+
 ## Releases
 
 ### v0.1 Task E
 ### v0.2 2025/12/19 Task E3
 ### v0.3 2025/12/20 Task F
-
+### v0.4 2026/01/01 Playfime for task E - technically unfinished
 
 ## Notes
