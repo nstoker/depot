@@ -54,7 +54,8 @@ Task 2
 Task 3
   Check products and line items for other places where a user friendly error message would be in order.
 Task 4
-  Add the ability to delete individual line items from the cart.
+  Add the ability to delete individual line items from the cart. Code added, but tests needed (given up for now).
+
 
 ## Releases
 
