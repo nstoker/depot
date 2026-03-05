@@ -45,4 +45,10 @@ Verified code up to p163 at the start of playtime.
 ### v0.3 2025/12/20 Task F
 ### v0.4 2026/01/01 Playfime for task E - technically unfinished
 
+Debugging:
+Issue when removing a line item, and additional cart apprears to be getting created.
+
 ## Notes
+
+Current state: when removing a line item, there appears to be additional
+carts being added. Is there a new cart getting created *every* time?
